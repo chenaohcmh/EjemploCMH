@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">EjemploCMH</string>
+
+    <string name="text_username">Nombre de Usuario</string>
+    <string name="text_password">Contraseña</string>
+    <string name="hint_password">Tu contraseña</string>
+    <string name="txt_welcome">Bienvenido</string>
+    <string name="user">Carlos Mario</string>
+    <string name="txt_introduction">Introducción</string>
+    <string name="txt_carreta">Introductionxxx</string>
+    <string name="txt_welcomeuser">Deseas entrar?</string>
+    <string name="txt_nameprod">Nombre de Producto</string>
+    <string name="txt_precprod">Precio</string>
+    <string name="text_btncliente">CLiente</string>
+    <string name="text_btnadmon">Administrador</string>
+
+    <string name="txt_buscar">Buscar</string>
+    <string name="txt_ayuda">Ayuda</string>
+    <string name="txt_contactar">Contacto</string>
+    <string name="txt_enviar">Enviar</string>
+    <string name="txt_miCuenta">Mi Cuenta</string>
+    <string name="txt_Promociones">Promociones</string>
+
+    <string name="txt_ConfCatalogo">Configurar Catalogo</string>
+    <string name="txt_VerCatalogo">Catalogo</string>
+    <string name="txt_ConfigPromociones">Configurar Promociones</string>
+    <string name="txt_Version">Version</string>
+
+</resources>

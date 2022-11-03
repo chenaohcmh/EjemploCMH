@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itm_buscar"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Busqueda"
+        app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/itm_miCuenta"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="MiCuenta"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/itm_ConfCatalogo"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="ConfCatalogo"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itm_Catalogo"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="Ver ConfCatalogo"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/itm_ConfigPromociones"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="ConfigPromociones"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itm_Promociones"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="Ver Promociones"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itm_help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Help"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/itm_Version"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="version"
+        app:showAsAction="never"/>
+
+
+</menu>

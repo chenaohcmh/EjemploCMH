@@ -1,0 +1,45 @@
+Index: app/src/main/res/layout/activity_admon.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_admon.xml b/app/src/main/res/layout/activity_admon.xml
+--- a/app/src/main/res/layout/activity_admon.xml	(date 1667447334143)
++++ b/app/src/main/res/layout/activity_admon.xml	
+@@ -27,8 +27,6 @@
+     <androidx.fragment.app.FragmentContainerView
+         android:id="@+id/fragment_container_view_admon"
+         android:layout_width="match_parent"
+-        android:layout_height="match_parent"
+-        android:name="com.example.ejemplocmh.Prom_DiaFragment"
+-        tools:layout="@layout/fragment_prom_dia" />
++        android:layout_height="match_parent"/>
+ 
+ </LinearLayout>
+Index: app/src/main/res/layout/activity_welcome.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_welcome.xml b/app/src/main/res/layout/activity_welcome.xml
+--- a/app/src/main/res/layout/activity_welcome.xml	(date 1667271534770)
++++ b/app/src/main/res/layout/activity_welcome.xml	
+@@ -23,6 +23,10 @@
+         android:layout_height="match_parent"
+         tools:openDrawer="start"
+         tools:context=".MainActivity">
++
++
++
++
+         <com.google.android.material.navigation.NavigationView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+@@ -30,6 +34,7 @@
+             app:headerLayout="@layout/nav_header"
+             app:menu="@menu/nav_menu"/>
+ 
++
+     </androidx.drawerlayout.widget.DrawerLayout>
+ 
+ 
